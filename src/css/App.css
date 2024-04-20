@@ -26,7 +26,6 @@ nav .logo {
   padding-right: 10px;
   border-left: 2px solid;
   padding-left: 10px;
-
 }
 
 nav .logo a {
@@ -66,4 +65,25 @@ nav ul li a:hover {
 nav ul li a.active-link {
   opacity: 1;
   box-shadow: #ccc 2px 3px;
+}
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+  nav ul {
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    row-gap: 30px;
+  }
 }
