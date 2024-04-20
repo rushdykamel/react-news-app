@@ -1,0 +1,63 @@
+article {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  position: relative;
+}
+
+article.highlighted {
+  box-shadow: #f54c4c 1px 2px;
+}
+
+h4 {
+  color: rgb(235, 8, 8);
+  margin: 0;
+}
+
+
+h5 {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image {
+  height: 200px;
+  width: 250px;
+  background-size: cover;
+}
+
+.reference {
+  align-self: flex-end;
+  background: #f3f3f3;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: #9f9a9a 1px 2px;
+}
+
+.favourite {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.favourite:hover {
+  color: rgb(235, 8, 8);
+}
+
+.favourite.active {
+  color: rgb(235, 8, 8);
+}
+
+.show-more {
+  color: rgb(235, 8, 8);
+}
