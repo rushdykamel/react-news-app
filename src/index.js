@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       <Category />
     ),
   }
-], {basename: '/react-news-app'});
+]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
